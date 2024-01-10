@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Shop</title>
+    <style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+        color: #333;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .hero {
+        background-image: url('back.jpeg');
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 100px 20px;
+    }
+    
+    .hero h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        margin-top: -50px; /* Adjust margin to align with hero section */
+    }
+    
+    .product {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(5, 20, 23, 0.1);
+        margin: 15px;
+        padding: 20px;
+        width: 250px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .product img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .product h3 {
+        margin-top: 0;
+        font-size: 1.5em;
+        color: #333;
+    }
+    
+    .product p {
+        color: #666;
+    }
+    
+    .product button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+    
+    .product button:hover {
+        background-color: #45a049;
+    }
+    
+    .product:hover {
+        transform: scale(1.05);
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mobile Shop</h1>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to Our Mobile Shop</h1>
+        <p>Discover the latest and greatest mobile devices at unbeatable prices.</p>
+    </div>
+
+    <section>
+        <div class="product">
+            <img src="p1.jpeg" alt="Mobile 1">
+            <h3>Mobile Model 1</h3>
+            <p>Price: $299</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="p2.jpeg" alt="Mobile 2">
+            <h3>Mobile Model 2</h3>
+            <p>Price: $399</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="p3.jpg" alt="Mobile 3">
+            <h3>Mobile Model 3</h3>
+            <p>Price: $499</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mobile Shop</p>
+    </footer>
+
+</body>
+</html>

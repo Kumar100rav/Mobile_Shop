@@ -1,0 +1,29 @@
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+###
+
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+### 
+
+POST http://localhost:5000/contact
+Content-Type: application/json
+
+{
+    "name": "admin",
+    "email": "admin@gmail.com",
+    "message": "Hello World"
+}
