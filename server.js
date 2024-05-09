@@ -4,7 +4,7 @@ const morgan = require('morgan');
 
 const app = express();
 const port = 5000;
-const MONGO_URI = 'mongodb+srv://krsaurv11033:cclKumar%401@cluster0.qy9pg2x.mongodb.net/?retryWrites=true&w=majority'
+const MONGO_URI = '*private*'
 
 // Connect to MongoDB (replace 'your_database_url' with your actual MongoDB URL)
 mongoose.connect(MONGO_URI);
